@@ -1,0 +1,20 @@
+div {
+    width: 200px;
+    padding: 10px 20px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin-inline: auto;
+    margin-block: 20px;
+    display: inline-block;
+    background-color: rgb(184, 240, 200, .5);
+}
+
+html {
+    background-color: yellow;
+}
+
+div:nth-child(2) {
+    background-color: red;
+    opacity: 60%;
+    position: static;
+}

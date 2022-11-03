@@ -1,0 +1,44 @@
+.box{
+    height: 40px;
+    width: 40px;
+    background-color: #0a1d8a;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.middlebox {
+    height: 40px;
+    width: 40px;
+    background-color: #11d342; 
+    border: black solid 1px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.static .middlebox {
+    position: static;
+}
+
+
+.relative .middlebox {
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+
+.absolute .middlebox {
+    position: absolute;
+    right: 50px;
+}
+
+.fixed .middlebox {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.sticky .middlebox {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
