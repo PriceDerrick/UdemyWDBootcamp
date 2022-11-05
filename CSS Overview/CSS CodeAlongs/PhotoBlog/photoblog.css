@@ -1,2 +1,38 @@
 
 
+nav {
+    font-family: Raleway;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-left: calc(10%/6);
+    margin-top: 1%;
+    font-size: 1.25em;
+}
+
+.rule {
+    width: 30%;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.26);
+    margin-left: calc(10%/6);
+    margin-top: .5%
+}
+
+body{
+}
+
+img {
+    width: 30%;
+    margin: calc(10%/6);
+}
+
+
+/* .leftimg {
+    margin-right: 4rem;
+}
+
+.centerimg {
+    margin-right: 4rem;
+}
+
+.rightimg {
+} */
