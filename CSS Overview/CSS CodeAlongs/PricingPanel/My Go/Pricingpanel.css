@@ -1,0 +1,79 @@
+body {
+    background: rgb(87, 133, 235);
+    text-transform: uppercase;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+}
+
+section {
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 7px;
+    box-shadow: .5px .5px 5px .5px;
+    width: 60%;
+    padding-block: 5rem;
+    padding-inline: 1em;
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+}
+
+section div {
+
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    padding: 2rem;
+}
+
+
+h1 {
+    color: gray;
+    padding-bottom: 1.5em;
+}
+
+p {
+    border-top: 1px solid rgb(87, 133, 235);
+    border-bottom: 1px solid rgb(87, 133, 235);
+    color: rgb(87, 133, 235);
+    padding: .5em;
+    font-weight: 700;
+}
+
+h2 {
+    color: rgb(30, 85, 204);
+}
+
+.one {
+    border-right: 1px solid gray;
+}
+
+.two {
+    border-right: 1px solid gray;
+}
+
+.one button, .three button {
+    background-color: aliceblue;
+    border: rgb(87, 133, 235) 1px solid;
+    border-radius: .5em;
+    padding: 1em 3em;
+    color: rgb(87, 133, 235);
+    text-transform: uppercase;
+}
+
+.two button {
+    background-color: rgb(87, 133, 235);
+    border: rgb(87, 133, 235) 1px solid;
+    border-radius: .5em;
+    padding: 1em 3em;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+
+
+/* Media Queries */
+
