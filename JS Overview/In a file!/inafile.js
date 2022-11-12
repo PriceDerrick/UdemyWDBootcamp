@@ -32,18 +32,39 @@
 // }
 // console.log("After 3")
 
-function getColor(phrase){
-    //WRITE YOUR CODE BETWEEN THIS LINE: ↓ ↓ ↓ ↓ 
-   if (phrase === "red") {
-       console.log("red");
-   } else if (phrase === "slow"){
-       console.log("yellow");
-   } else if (phrase === "go"){
-       console.log(green);
-   } else console.log("purple");
+// function getColor(phrase){
+//     //WRITE YOUR CODE BETWEEN THIS LINE: ↓ ↓ ↓ ↓ 
+//    if (phrase === "red") {
+//        console.log("red");
+//    } else if (phrase === "slow"){
+//        console.log("yellow");
+//    } else if (phrase === "go"){
+//        console.log(green);
+//    } else console.log("purple");
    
-    //AND THIS LINE ↑↑↑↑↑
-}
+//     //AND THIS LINE ↑↑↑↑↑
+// }
 
 
+
+// const password = prompt("Please enter a new password")
+    
+//  if (password.length >=6) {
+//     if (password.indexOf(" ")=== -1){
+//         console.log("Valid Pass")
+//      } else {
+//         console.log("NO SPACES LAME-O")
+//      }
+//  } else {
+//     console.log("more than 6 lame-o")
+//  }
+
+
+
+// const password = prompt("Please enter a new password")
+//     if (password.length >=6 && password.indexOf(" ") === -1) {
+//         console.log ("YEAH BOI")
+//     } else {
+//         console.log ("Nah")
+//     }
 
